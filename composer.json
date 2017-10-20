@@ -1,0 +1,30 @@
+{
+  "name": "stick/container",
+  "description": "Registry for services and connections between services on multiple instance.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "prefer-stable" : true,
+  "authors": [
+    {
+      "name": "Alexander Jank",
+      "email": "himself@alexanderjank.de"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "6.4.*"
+  },
+  "require": {
+    "psr/container": "1.0.0",
+    "symfony/yaml": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stick\\Container\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}

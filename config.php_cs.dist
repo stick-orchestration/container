@@ -1,0 +1,21 @@
+<?php
+
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@PSR2' => true,
+        'strict_param' => true,
+        'array_syntax' => ['syntax' => 'short'],
+        'declare_strict_types' => true,
+        'return_type_declaration' => ['space_before' => 'one'],
+        'linebreak_after_opening_tag' => true,
+        'cast_spaces' => true,
+        'function_typehint_space' => true,
+        'method_separation' => true,
+        'modernize_types_casting' => true,
+        'no_leading_import_slash' => true,
+        'no_unused_imports' => true,
+        'no_useless_else' => true,
+        'no_whitespace_before_comma_in_array' => true,
+        'whitespace_after_comma_in_array' => true,
+        'psr4' => true
+    ])->setRiskyAllowed(true);

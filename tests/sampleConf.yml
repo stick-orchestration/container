@@ -1,0 +1,6 @@
+map:
+  "Tests\\SampleInterface": "Tests\\SampleImplementation"
+  "Tests\\SecondInterface": "Tests\\SecondImplementation"
+  "Tests\\FooInterface": "Tests\\FooImplementation"
+services:
+  - "Tests\\SampleService"

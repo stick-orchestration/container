@@ -15,7 +15,7 @@ class Container implements ContainerInterface
 {
 
     /**
-     * @var \stdClass
+     * @var array
      */
     private $map;
 

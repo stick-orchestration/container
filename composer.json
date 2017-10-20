@@ -1,6 +1,6 @@
 {
   "name": "stick/container",
-  "description": "Registry for services and connections between services on multiple instance.",
+  "description": "Service oriented implementation of PSR-Container interface with reflection resolved dependency injection.",
   "minimum-stability": "stable",
   "license": "proprietary",
   "prefer-stable" : true,
